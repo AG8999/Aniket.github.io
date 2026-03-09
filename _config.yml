@@ -1,0 +1,28 @@
+title: Aniket Ghadge
+tagline: "Data Engineer · Azure · Databricks · PySpark"
+description: "Azure-certified Data Engineer with 3+ years building scalable pipelines, lakehouse architectures, and ML-powered analytics solutions."
+url: "https://aniketghadge.dev"   # ← replace with your custom domain
+baseurl: ""
+
+author:
+  name: Aniket Ghadge
+  email: Officialaniketghadge@gmail.com
+  phone: "(+353)-899-827-7371"
+  linkedin: https://www.linkedin.com/in/aniket-ghadge
+  github: https://github.com/AG8999
+  location: Dublin, Ireland
+
+# Build settings
+markdown: kramdown
+highlighter: rouge
+permalink: /:title/
+
+plugins:
+  - jekyll-seo-tag
+  - jekyll-sitemap
+
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - README.md
+  - node_modules/
