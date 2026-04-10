@@ -181,7 +181,7 @@ section { padding: 2.5rem 6%; }
 .xp {
   display: grid; grid-template-columns: 185px 1fr; gap: 2.75rem;
   padding: 2.25rem 0; border-bottom: 1px solid var(--border);
-  opacity: 0; transform: translateY(14px); transition: opacity .5s, transform .5s;
+  opacity: 1; transform: translateY(0); transition: opacity .5s, transform .5s;
 }
 .xp:last-child { border-bottom: none; }
 .xp.show { opacity: 1; transform: translateY(0); }
@@ -199,7 +199,7 @@ section { padding: 2.5rem 6%; }
 .proj {
   background: var(--surface); border: 1px solid var(--border); border-radius: 10px;
   padding: 1.6rem; display: flex; flex-direction: column;
-  opacity: 0; transform: translateY(14px); transition: opacity .5s, transform .5s, border-color .2s, box-shadow .2s;
+  opacity: 1; transform: translateY(0); transition: opacity .5s, transform .5s, border-color .2s, box-shadow .2s;
 }
 .proj.show { opacity: 1; transform: translateY(0); }
 .proj:hover { border-color: var(--teal-med); box-shadow: 0 8px 28px rgba(0,0,0,.28); transform: translateY(-3px) !important; }
@@ -217,7 +217,7 @@ section { padding: 2.5rem 6%; }
 .edu-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 1.25rem; margin-bottom: 2.25rem; }
 .edu {
   background: var(--surface); border: 1px solid var(--border); border-radius: 10px; padding: 1.5rem;
-  opacity: 0; transform: translateY(14px); transition: opacity .5s, transform .5s, border-color .2s;
+  opacity: 1; transform: translateY(0); transition: opacity .5s, transform .5s, border-color .2s;
 }
 .edu.show { opacity: 1; transform: translateY(0); }
 .edu:hover { border-color: rgba(240,180,41,.25); }
@@ -537,7 +537,7 @@ footer { border-top: 1px solid var(--border); padding: 1.5rem 6%; display: flex;
         <div class="sk-tags">
           <span class="tag">Python</span><span class="tag">PySpark</span><span class="tag">SQL / T-SQL</span>
           <span class="tag">NoSQL</span><span class="tag">MSSQL</span><span class="tag">PostgreSQL</span>
-          <span class="tag">DDL &amp; DML</span><span class="tag">CTEs</span><span class="tag">Window Functions</span>
+          <span class="tag">Feature Engineering</span><span class="tag">DDL &amp; DML</span><span class="tag">CTEs</span><span class="tag">Window Functions</span>
         </div>
       </div>
 
@@ -555,7 +555,7 @@ footer { border-top: 1px solid var(--border); padding: 1.5rem 6%; display: flex;
         <div class="sk-tags">
           <span class="tag">PyTorch</span><span class="tag">TensorFlow</span><span class="tag">Scikit-learn</span>
           <span class="tag">Hugging Face</span><span class="tag">LangChain</span><span class="tag">RAG</span>
-          <span class="tag">NLP</span><span class="tag">HDBSCAN / SOM</span><span class="tag">SPSS</span>
+          <span class="tag">LLMs</span><span class="tag">Embeddings</span><span class="tag">NLP</span><span class="tag">HDBSCAN / SOM</span><span class="tag">SPSS</span>
         </div>
       </div>
 
@@ -585,6 +585,22 @@ footer { border-top: 1px solid var(--border); padding: 1.5rem 6%; display: flex;
 
       <div class="xp reveal d1">
         <div class="xp-meta">
+          <div class="xp-date">Jan 2025 – Present</div>
+          <div class="xp-co">Starlite Infotech<br>Ireland</div>
+        </div>
+        <div>
+          <div class="xp-role">Data and AI Engineer</div>
+          <ul class="xp-pts">
+            <li>Analysing <strong>50M+ records</strong> using Python and SQL to uncover usage patterns, anomalies, and trend shifts — supporting data-driven decision making across reporting workflows.</li>
+            <li>Preparing feature engineering datasets by transforming raw transactional data into <strong>model-ready formats</strong>, enabling statistical modelling and exploratory ML experiments.</li>
+            <li>Prototyping a <strong>Retrieval-Augmented Generation (RAG)</strong> solution using LLMs, involving document chunking, embedding generation, and semantic retrieval to improve internal query resolution accuracy.</li>
+            <li>Collaborating with business and technical teams to scope analytical problems, validate data assumptions, and present findings through structured stakeholder walkthroughs.</li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="xp reveal d2">
+        <div class="xp-meta">
           <div class="xp-date">Feb 2024 – Jun 2024</div>
           <div class="xp-co">Brickfield Education Labs<br>Dublin, Ireland</div>
         </div>
@@ -599,10 +615,10 @@ footer { border-top: 1px solid var(--border); padding: 1.5rem 6%; display: flex;
         </div>
       </div>
 
-      <div class="xp reveal d2">
+      <div class="xp reveal d3">
         <div class="xp-meta">
           <div class="xp-date">Mar 2023 – May 2023</div>
-          <div class="xp-co">Capita<br>India</div>
+          <div class="xp-co">Capita<br>Ireland</div>
         </div>
         <div>
           <div class="xp-role">Progress Developer</div>
@@ -614,7 +630,7 @@ footer { border-top: 1px solid var(--border); padding: 1.5rem 6%; display: flex;
         </div>
       </div>
 
-      <div class="xp reveal d3">
+      <div class="xp reveal d4">
         <div class="xp-meta">
           <div class="xp-date">Aug 2021 – Feb 2023</div>
           <div class="xp-co">Consisty System<br>Pune, India</div>
@@ -633,7 +649,7 @@ footer { border-top: 1px solid var(--border); padding: 1.5rem 6%; display: flex;
         </div>
       </div>
 
-      <div class="xp reveal d4">
+      <div class="xp reveal d1">
         <div class="xp-meta">
           <div class="xp-date">Mar 2020 – Jun 2020</div>
           <div class="xp-co">Wisdom Sprouts Solutions<br>Pune, India</div>
